@@ -1,0 +1,188 @@
+[
+    {
+        "allocations": [
+            {
+                "candidate": "Kurt Wright",
+                "votes": 2951
+            },
+            {
+                "candidate": "Bob Kiss",
+                "votes": 2585
+            },
+            {
+                "candidate": "Andy Montroll",
+                "votes": 2063
+            },
+            {
+                "candidate": "Dan Smith",
+                "votes": 1306
+            },
+            {
+                "candidate": "Write-in",
+                "votes": 36
+            },
+            {
+                "candidate": "James Simpson",
+                "votes": 35
+            },
+            {
+                "candidate": "Exhausted",
+                "votes": 4
+            }
+        ],
+        "transfers": []
+    },
+    {
+        "allocations": [
+            {
+                "candidate": "Kurt Wright",
+                "votes": 3294
+            },
+            {
+                "candidate": "Bob Kiss",
+                "votes": 2981
+            },
+            {
+                "candidate": "Andy Montroll",
+                "votes": 2554
+            },
+            {
+                "candidate": "Exhausted",
+                "votes": 151
+            }
+        ],
+        "transfers": [
+            {
+                "to": "Kurt Wright",
+                "from": "Kurt Wright",
+                "count": 2951
+            },
+            {
+                "to": "Bob Kiss",
+                "from": "Bob Kiss",
+                "count": 2585
+            },
+            {
+                "to": "Andy Montroll",
+                "from": "Andy Montroll",
+                "count": 2063
+            },
+
+            {
+                "from": "Dan Smith",
+                "to": "Kurt Wright",
+                "count": 332
+            },
+            {
+                "from": "Dan Smith",
+                "to": "Bob Kiss",
+                "count": 370
+            },
+            {
+                "from": "Dan Smith",
+                "to": "Andy Montroll",
+                "count": 472
+            },
+            {
+                "from": "Dan Smith",
+                "to": "Exhausted",
+                "count": 132
+            },
+            {
+                "from": "Write-in",
+                "to": "Kurt Wright",
+                "count": 5
+            },
+            {
+                "from": "James Simpson",
+                "to": "Bob Kiss",
+                "count": 19
+            },
+
+            {
+                "from": "Write-in",
+                "to": "Bob Kiss",
+                "count": 7
+            },
+            {
+                "from": "James Simpson",
+                "to": "Andy Montroll",
+                "count": 6
+            },
+
+            {
+                "from": "Write-in",
+                "to": "Andy Montroll",
+                "count": 13
+            },
+            {
+                "from": "James Simpson",
+                "to": "Exhausted",
+                "count": 4
+            },
+            {
+                "from": "James Simpson",
+                "to": "Kurt Wright",
+                "count": 6
+            },
+            {
+                "from": "Write-in",
+                "to": "Exhausted",
+                "count": 11
+            },
+            {
+                "from": "Exhausted",
+                "to": "Exhausted",
+                "count": 4
+            }
+        ]
+    },
+    {
+        "allocations": [
+            {
+                "candidate": "Bob Kiss",
+                "votes": 4313
+            },
+            {
+                "candidate": "Kurt Wright",
+                "votes": 4060
+            },
+            {
+                "candidate": "Exhausted",
+                "votes": 607
+            }
+        ],
+        "transfers": [
+            {
+                "to": "Kurt Wright",
+                "from": "Kurt Wright",
+                "count": 3294
+            },
+            {
+                "to": "Bob Kiss",
+                "from": "Bob Kiss",
+                "count": 2981
+            },
+            {
+                "from": "Andy Montroll",
+                "to": "Bob Kiss",
+                "count": 1332
+            },
+            {
+                "from": "Andy Montroll",
+                "to": "Kurt Wright",
+                "count": 766
+            },
+            {
+                "from": "Andy Montroll",
+                "to": "Exhausted",
+                "count": 456
+            },
+            {
+                "from": "Exhausted",
+                "to": "Exhausted",
+                "count": 151
+            }
+        ]
+    }
+]
