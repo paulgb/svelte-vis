@@ -19,7 +19,7 @@ I don't assume any prior knowledge about these, but I also don't cover any of th
 
 Clone this repository:
 
-    git clone (blah)
+    git clone https://github.com/paulgb/svelte-vis.git
 
 Install requirements:
 
@@ -28,7 +28,7 @@ Install requirements:
 
 Run dev server:
 
-    yarn dev
+    yarn start
 
 When the server is running, open your browser to `http://localhost:5000`.
 

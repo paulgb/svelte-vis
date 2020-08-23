@@ -16,7 +16,7 @@
   }
 
   async function fetchData() {
-    let raw = await fetch("/iris.json");
+    let raw = await fetch("/data/iris.json");
     let data = (await raw.json()) as IrisEntry[];
 
     let xScale = scaleLinear()

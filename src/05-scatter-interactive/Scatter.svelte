@@ -19,8 +19,8 @@
   $: yScale = scaleLinear()
     .domain(extent(data, (d) => d[yDimension]))
     .range([height - 5, 5]);
-  $: species = new Set(data.map((d) => d.species));
-  $: colorScale = scaleOrdinal()
+  let species = new Set(data.map((d) => d.species));
+  let colorScale = scaleOrdinal()
     .domain(Array.from(species))
     .range(colors) as ScaleOrdinal<string, string>;
 </script>

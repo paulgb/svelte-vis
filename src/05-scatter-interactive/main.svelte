@@ -5,7 +5,7 @@
   import DimensionSelector from "./DimensionSelector.svelte";
 
   async function fetchData(): Promise<IrisEntry[]> {
-    let raw = await fetch("/iris.json");
+    let raw = await fetch("/data/iris.json");
     return raw.json();
   }
 
