@@ -24,9 +24,9 @@
   const width = 600;
 
   const colors = {
-    Mutual: '#000',
-    FMatch: '#fdd',
-    MMatch: '#ddf',
+    Mutual: "#000",
+    FMatch: "#fdd",
+    MMatch: "#ddf",
   };
 
   async function loadData() {
@@ -41,10 +41,11 @@
     );
 
     simulation.force(
-        "link",
-        force.forceLink()
-            .links(data.edges)
-            .strength((d) => (d as any).status === 'Mutual' ? 1 : 0.04)
+      "link",
+      force
+        .forceLink()
+        .links(data.edges)
+        .strength((d) => ((d as any).status === "Mutual" ? 1 : 0.04))
     );
 
     simulation.on("tick", () => {
@@ -63,19 +64,21 @@
 {:then data}
   <svg {width} {height}>
     {#each links.filter((d) => d.status !== 'Mutual') as link}
-        <line x1={link.source.x * scale}
-              y1={link.source.y * scale}
-              x2={link.target.x * scale}
-              y2={link.target.y * scale}
-              stroke={colors[link.status]} />
+      <line
+        x1={link.source.x * scale}
+        y1={link.source.y * scale}
+        x2={link.target.x * scale}
+        y2={link.target.y * scale}
+        stroke={colors[link.status]} />
     {/each}
     {#each links.filter((d) => d.status === 'Mutual') as link}
-    <line x1={link.source.x * scale}
-          y1={link.source.y * scale}
-          x2={link.target.x * scale}
-          y2={link.target.y * scale}
-          stroke={'black'} />
-{/each}
+      <line
+        x1={link.source.x * scale}
+        y1={link.source.y * scale}
+        x2={link.target.x * scale}
+        y2={link.target.y * scale}
+        stroke={'black'} />
+    {/each}
     {#each nodes as node}
       <circle
         cx={node.x * scale}
