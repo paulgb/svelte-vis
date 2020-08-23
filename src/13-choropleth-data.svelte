@@ -2,7 +2,7 @@
   import { geoAlbersUsa, geoPath } from "d3-geo";
   import { scaleLinear } from "d3-scale";
   import { extent } from "d3-array";
-  import type {ScaleLinear} from "d3-scale";
+  import type { ScaleLinear } from "d3-scale";
 
   const width = 600;
   const height = 600;
@@ -29,9 +29,9 @@
     });
 
     let domain = extent(states, (d) => d.vehicles);
-    let colorScale = (scaleLinear() as any as ScaleLinear<number, string>)
+    let colorScale = ((scaleLinear() as any) as ScaleLinear<number, string>)
       .domain(domain)
-      .range(['green', '#ccc'] as any);
+      .range(["green", "#ccc"] as any);
 
     console.log(states);
     return {
@@ -48,7 +48,10 @@
 {:then data}
   <svg {width} {height}>
     {#each data.states as state}
-      <path fill={data.colorScale(state.vehicles)} stroke="#fff" d={state.path} />
+      <path
+        fill={data.colorScale(state.vehicles)}
+        stroke="#fff"
+        d={state.path} />
     {/each}
   </svg>
 {/await}

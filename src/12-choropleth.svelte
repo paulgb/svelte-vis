@@ -7,7 +7,11 @@
   async function loadData() {
     let mapResponse = await fetch("/data/USStates.json");
     let mapData = await mapResponse.json();
-    let path = geoPath(geoAlbersUsa().scale(800).translate([width/2, height/2]));
+    let path = geoPath(
+      geoAlbersUsa()
+        .scale(800)
+        .translate([width / 2, height / 2])
+    );
 
     let states = (mapData.features as any[]).map((d) => {
       return {
