@@ -29,6 +29,10 @@
     circle {
         transition: transform 0.4s;
     }
+
+    g {
+        transition: transform 0.4s;
+    }
 </style>
 
 <svg {width} height={height+30}>
