@@ -52,8 +52,6 @@
       nodes = data.nodes;
       links = data.edges;
     });
-
-    return data;
   }
 
   let promise = loadData();
@@ -61,7 +59,7 @@
 
 {#await promise}
   <p>Loading...</p>
-{:then data}
+{:then}
   <svg {width} {height}>
     {#each links.filter((d) => d.status !== 'Mutual') as link}
       <line

@@ -8,9 +8,9 @@ If we want to capture the _relationships_ between data points, rather than just 
 
 ## Sankey Diagram
 
-Sankey diagrams describe flows of some quantity between entities. They are often used to visualize how a budget trickles through an organization, from revenue through to expenditures and profits.
+Sankey diagrams describe flows of a quantity between entities. They are often used to visualize how a money trickles through an organization, from revenue through to expenditures and surplus.
 
-In our case, we'll be creating a Sankey diagram where the quantity is votes, rather than dollars.
+In our case, we'll be creating a Sankey diagram where the quantity is _votes_, rather than dollars.
 
 ## Instant-runoff voting primer
 
@@ -26,11 +26,11 @@ For a Sankey diagram, there are two types of visual elements:
 - The boxes representing the entities.
 - The ribbons representing flows between the entities.
 
-In many Sankey diagrams, each entity corresponds to one box and the entire diagram represents a single time period. By contrast, in _our_ Sankey diagram, we want to capture transfers between the same set of entities over multiple rounds of runoff. So each candidate can has a box _for each round they remained viable_.
+In many Sankey diagrams, each entity corresponds to one box and the entire diagram represents flows over a fixed time period. By contrast, in _our_ Sankey diagram, we want to capture transfers between the same set of entities over multiple rounds of runoff. So each candidate can has a box _for each round they remained viable_.
 
 ### Boxes
 
-The boxes are the easiest part to position. Each round corresponds to a single value on the y axis, so the y position is determined by which round a box is in.
+The boxes are the easiest part to position. Each round corresponds to a single value on the y-axis, so the y position is determined by which round a box is in.
 
 The width of each box is proportional to the number of votes allocated to the candidate in that round. A scale is calculated to ensure that there is room for all the boxes with gaps in between.
 
@@ -74,7 +74,7 @@ If you are a fan of the CyberTruck-chic aesthetic, the sharp corners of the para
         C ${bottomX} ${midY} ${topX} ${midY} ${topX} ${top}
     `;
 
-This replaces two of the straight lines (the left and right edges of the parallelogram) with smooth curves, using an additional path command:
+This replaces two of the straight lines (the left and right edges of the parallelogram) with smooth curves, introducing a new path command:
 
 - `C x1 y1 x2 y2 x y`: move the pen to the location `(x, y)` using `(x1 y1)` and `(x2 y2)` as control points of a Bezier curve.
 
