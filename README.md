@@ -28,7 +28,7 @@ Install requirements:
 
 Run dev server:
 
-    yarn start
+    yarn dev
 
 When the server is running, open your browser to `http://localhost:5000`.
 
