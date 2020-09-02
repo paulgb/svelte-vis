@@ -2,31 +2,31 @@
     {
         "allocations": [
             {
-                "candidate": "Kurt Wright",
+                "name": "Kurt Wright",
                 "votes": 2951
             },
             {
-                "candidate": "Bob Kiss",
+                "name": "Bob Kiss",
                 "votes": 2585
             },
             {
-                "candidate": "Andy Montroll",
+                "name": "Andy Montroll",
                 "votes": 2063
             },
             {
-                "candidate": "Dan Smith",
+                "name": "Dan Smith",
                 "votes": 1306
             },
             {
-                "candidate": "Write-in",
+                "name": "Write-in",
                 "votes": 36
             },
             {
-                "candidate": "James Simpson",
+                "name": "James Simpson",
                 "votes": 35
             },
             {
-                "candidate": "Exhausted",
+                "name": "Exhausted",
                 "votes": 4
             }
         ],
@@ -35,19 +35,19 @@
     {
         "allocations": [
             {
-                "candidate": "Kurt Wright",
+                "name": "Kurt Wright",
                 "votes": 3294
             },
             {
-                "candidate": "Bob Kiss",
+                "name": "Bob Kiss",
                 "votes": 2981
             },
             {
-                "candidate": "Andy Montroll",
+                "name": "Andy Montroll",
                 "votes": 2554
             },
             {
-                "candidate": "Exhausted",
+                "name": "Exhausted",
                 "votes": 151
             }
         ],
@@ -140,15 +140,15 @@
     {
         "allocations": [
             {
-                "candidate": "Bob Kiss",
+                "name": "Bob Kiss",
                 "votes": 4313
             },
             {
-                "candidate": "Kurt Wright",
+                "name": "Kurt Wright",
                 "votes": 4060
             },
             {
-                "candidate": "Exhausted",
+                "name": "Exhausted",
                 "votes": 607
             }
         ],

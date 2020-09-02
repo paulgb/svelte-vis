@@ -1,4 +1,4 @@
-# Data Visualization on the Web
+# Data Visualization with Svelte
 
 Creating a data visualization involves knowing two things:
 1. Knowing how to draw shapes in a loop (the _technique_).
@@ -40,58 +40,42 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
 
 ## Lessons:
 
-- Lesson 1: **SVG**
+- Lesson 0: **Environment Setup**
     - Video
+- Lesson 1: **SVG**
+    - [Video](https://youtu.be/IccaesM1_uM)
     - [Notes](/notes-svg.md)
     - [Code](/src/01-svg.svelte)
 - Lesson 2: **Bar Plot**
     - Video
     - [Notes](/notes-bar.md)
     - [Code](/src/02-bar.svelte)
-    - [Solution](/src/02-bar-solution.svelte)
 - Lesson 3: **Scatter Plot**
     - Video
     - [Notes](/notes-scatter.md)
     - [Code](/src/03-scatter.svelte)
-    - [Solution](/src/03-scatter-solution.svelte)
-- Lesson 4: **Scatter Plot Legend**
-    - Video
-    - [Notes](/notes-scatter.md)
-    - [Code](/src/04-scatter-legend.svelte)
-- Lesson 5: **Interactive Scatter Plot**
+- Lesson 4: **Interactive Scatter Plot**
     - Video
     - [Notes](/notes-scatter-interactive.md)
-    - [Code](/src/05-scatter-interactive)
-- Lesson 6: **Sankey Diagram**
+    - [Code](/src/04-scatter-interactive)
+- Lesson 5: **Sankey Diagram**
     - Video
     - [Notes](/notes-sankey.md)
-    - [Code](/src/06-sankey.svelte)
-- Lesson 7: **Sankey Diagram, Continued**
+    - Code
+- Lesson 6: **Bezier Curves**
     - Video
     - [Notes](/notes-sankey.md)
-    - [Code](/src/07-sankey-transfers.svelte)
-- Lesson 8: **Bezier Curves**
-    - Video
-    - [Notes](/notes-sankey.md)
-    - [Code](/src/08-bezier/)
-- Lesson 9: **Sankey Diagram + Bezier**
-    - Video
-    - [Notes](/notes-sankey.md)
-    - [Code](/src/09-sankey-bezier.svelte)
-- Lesson 10: **Sankey Diagram + Labels**
-    - Video
-    - [Notes](/notes-sankey.md)
-    - [Code](/src/10-sankey-labels.svelte)
-- Lesson 11: **Force-directed Graph**
+    - Code
+- Lesson 7: **Force-directed Graph**
     - Video
     - [Notes](/notes-force.md)
-    - [Code](/src/11-force.svelte)
-- Lesson 12: **Drawing a Map**
+    - Code
+- Lesson 8: **Drawing a Map**
     - Video
     - [Notes](/notes-choropleth.md)
-    - [Code](/src/12-choropleth.svelte)
-- Lesson 13: **Coloring a Map with Data**
+    - Code
+- Lesson 9: **Coloring a Map with Data**
     - Video
     - [Notes](/notes-choropleth.md)
-    - [Code](/src/13-choropleth-data.svelte)
+    - Code
 

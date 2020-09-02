@@ -102,4 +102,6 @@ Once that's done, we just need to add a CSS rule that tells it to animate the `t
         }
     </style>
  
+## External Links
 
+- The official [Svelte tutorial](https://svelte.dev/tutorial/basics) goes into more detail on these topics.
