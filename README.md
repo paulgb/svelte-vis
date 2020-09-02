@@ -70,11 +70,7 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
     - Video
     - [Notes](/notes-force.md)
     - Code
-- Lesson 8: **Drawing a Map**
-    - Video
-    - [Notes](/notes-choropleth.md)
-    - Code
-- Lesson 9: **Coloring a Map with Data**
+- Lesson 8: **Choropleth Map**
     - Video
     - [Notes](/notes-choropleth.md)
     - Code
