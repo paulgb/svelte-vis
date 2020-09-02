@@ -47,7 +47,7 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
     - [Notes](/notes-svg.md)
     - [Code](/src/01-svg.svelte)
 - Lesson 2: **Bar Plot**
-    - Video
+    - [Video](https://youtu.be/cs7mvhH4uls)
     - [Notes](/notes-bar.md)
     - [Code](/src/02-bar.svelte)
 - Lesson 3: **Scatter Plot**
