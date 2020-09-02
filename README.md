@@ -41,7 +41,7 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
 ## Lessons:
 
 - Lesson 0: **Environment Setup**
-    - Video
+    - [Video](https://youtu.be/tm2K3aOH9fI)
 - Lesson 1: **SVG**
     - [Video](https://youtu.be/IccaesM1_uM)
     - [Notes](/notes-svg.md)
@@ -51,11 +51,11 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
     - [Notes](/notes-bar.md)
     - [Code](/src/02-bar.svelte)
 - Lesson 3: **Scatter Plot**
-    - Video
+    - [Video](https://youtu.be/aa2ASVLqReY)
     - [Notes](/notes-scatter.md)
     - [Code](/src/03-scatter.svelte)
 - Lesson 4: **Interactive Scatter Plot**
-    - Video
+    - [Video](https://youtu.be/f-oPZ5REcZc)
     - [Notes](/notes-scatter-interactive.md)
     - [Code](/src/04-scatter-interactive)
 - Lesson 5: **Sankey Diagram**
