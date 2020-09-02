@@ -59,7 +59,7 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
     - [Notes](/notes-scatter-interactive.md)
     - [Code](/src/04-scatter-interactive)
 - Lesson 5: **Sankey Diagram**
-    - Video
+    - [Video](https://youtu.be/2JpkPO5R2l4)
     - [Notes](/notes-sankey.md)
     - [Code](/src/05-sankey.svelte)
 - Lesson 6: **Bezier Curves**
