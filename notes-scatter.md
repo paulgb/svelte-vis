@@ -95,3 +95,8 @@ We can “suggest” to ticks to return a certain number of tick points, but the
 ## Legend
 
 There's nothing new to the legend that you haven't seen before - it's basically just a bar plot where the color of the bar, rather than the width, is used to encode the data!
+
+## External Links
+
+- The dataset we use is the [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set).
+- [SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
