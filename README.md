@@ -41,25 +41,31 @@ Two of the early lessons, _Bar Plot_ and _Scatter Plot_, include exercises for y
 ## Lessons:
 
 - Lesson 0: **Environment Setup**
-    - [Video](https://youtu.be/tm2K3aOH9fI)
+    - [Video (YouTube)](https://youtu.be/tm2K3aOH9fI)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-00-intro.mp4)
 - Lesson 1: **SVG**
-    - [Video](https://youtu.be/IccaesM1_uM)
+    - [Video (YouTube)](https://youtu.be/IccaesM1_uM)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-01-svg.mp4)
     - [Notes](/notes-svg.md)
     - [Code](/src/01-svg.svelte)
 - Lesson 2: **Bar Plot**
-    - [Video](https://youtu.be/cs7mvhH4uls)
+    - [Video (YouTube)](https://youtu.be/cs7mvhH4uls)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-02-bar.mp4)
     - [Notes](/notes-bar.md)
     - [Code](/src/02-bar.svelte)
 - Lesson 3: **Scatter Plot**
-    - [Video](https://youtu.be/aa2ASVLqReY)
+    - [Video (YouTube)](https://youtu.be/aa2ASVLqReY)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-03-scatter.mp4)
     - [Notes](/notes-scatter.md)
     - [Code](/src/03-scatter.svelte)
 - Lesson 4: **Interactive Scatter Plot**
-    - [Video](https://youtu.be/f-oPZ5REcZc)
+    - [Video (YouTube)](https://youtu.be/f-oPZ5REcZc)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-04-scatter-interactive.mp4)
     - [Notes](/notes-scatter-interactive.md)
     - [Code](/src/04-scatter-interactive)
 - Lesson 5: **Sankey Diagram**
-    - [Video](https://youtu.be/2JpkPO5R2l4)
+    - [Video (YouTube)](https://youtu.be/2JpkPO5R2l4)
+    - [Video (download mp4)](https://svelte-vis.s3.amazonaws.com/svelte-05-sankey.mp4)
     - [Notes](/notes-sankey.md)
     - [Code](/src/05-sankey.svelte)
 - Lesson 6: **Bezier Curves**
